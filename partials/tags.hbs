@@ -1,0 +1,17 @@
+{{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+<div class="container">
+    <div class="row tags-list">
+
+    {{#foreach tags}}
+    <div class="col-sm-6">
+        <div class="col-content">
+            <h3><a href='{{ url }}'>{{ name }}</a></h3>
+            <div class="tags-count">{{ count.posts }} {{ plural count.posts empty="" singular="articolo presente" plural="articoli presenti"}}</div>
+            <p class="descrizione-tag">{{ description }}</p>
+        </div>
+    </div>
+    {{/foreach}}
+
+    </div>
+</div>
+{{/get}}

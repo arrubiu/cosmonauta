@@ -1,0 +1,88 @@
+div.blog-cover.cover > img,
+div.post-cover.cover > img {
+  opacity: 0.4;}
+
+.container .post.featured .post-title:after {
+  color: #aa0000 !important;
+}
+
+.nav-header li.active a:before {
+  background: #aa0000 !important;
+}
+
+.post-share .facebook {
+  background-color: transparent !important;
+  color: #3b5998 !important;
+  font-size: 4rem !important;
+}
+
+.post-share .twitter {
+  background-color: transparent !important;
+  color: #1DA1F2 !important;
+  font-size: 4rem !important;
+}
+
+.post-share .linkedin {
+  background-color: transparent !important;
+  color: #2867B2 !important;
+  font-size: 4rem !important;
+}
+
+.post-share .whatsapp {
+  background-color: transparent !important;
+  color: #25D366 !important;
+  font-size: 4rem !important;
+}
+
+.post-info-label {
+  line-height: 4rem !important;
+}
+
+.post-share a {
+  margin-right: 0.4em !important;  //test
+}
+
+.post-info .post-type {
+  color: #aa0000;
+}
+
+.post-tags a {
+  background: #aa0000 !important;
+  border-radius: 0.5em !important;
+  line-height: 3em !important;
+}
+
+@media (max-width: 700px) {
+  h1.blog-name {
+    font-size: 4.5em !important;
+  }
+
+  .post-header .post-title {
+    font-size: 4.5em !important;
+  }
+
+  h2.post-title {
+    font-size: 3em !important;
+  }
+
+  .blog-description {
+    font-size: 2.5em !important;
+  }
+}
+
+.post-content figure figcaption {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  width: auto;
+  display: table;
+}
+
+.post-content figure figcaption::after {
+  display: none;
+}
+
+.post-tags-custom a {
+  color: #ffffff
+}
+
+
