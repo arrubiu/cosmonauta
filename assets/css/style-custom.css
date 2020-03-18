@@ -114,6 +114,6 @@ div.post-cover.cover > img {
 }
 
 .progress-bar {
-    ##background-color: #aa0000;
+    /*/background-color: #aa0000;*/
     background-color: blue;
 }
