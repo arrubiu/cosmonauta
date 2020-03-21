@@ -116,3 +116,7 @@ div.post-cover.cover > img {
 .progress-bar {
     background-color: #aa0000;
 }
+
+.post-content blockquote {
+    border-left-color: #aa0000;
+}
