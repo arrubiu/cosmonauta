@@ -125,3 +125,7 @@ div.post-cover.cover > img {
 .post-content ul > li::before {
     color: #aa0000;
 }
+
+.post-content a {
+    box-shadow: inset 0 -2px 0 #aa0000;
+}
