@@ -93,6 +93,12 @@ div.post-cover.cover > img {
     color: #ffffff
 }
 
+@media (max-width: 700px) {
+    .post-tags-custom {
+        font-size: 1.6rem;
+    }
+}
+
 .post-tags-custom a {
     color: #ffffff
 }
@@ -137,9 +143,8 @@ div.post-cover.cover > img {
 }
 
 .post-meta .print-button a {
-    display: block;
+    display: inline-block;
     color: #ffffff;
-    margin-left: 50px;
     font-style: italic;
 }
 
