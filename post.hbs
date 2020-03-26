@@ -34,7 +34,8 @@
 				{{/foreach}}
 			</div>
 			<h4 class="post-meta-author">{{authors separator=", "}}</h4>
-			<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="D MMMM YYYY"}}</time> &bull; {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
+			<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="D MMMM YYYY"}}</time> &bull; {{reading_time minute=(t "1 minuto") minutes=(t "% minuti")}}
+            <span class="print-button"><a href="https://Fwww.printfriendly.com?url=" target="_blank">Versione stampabile</a></span>
 		</div>
 		{{#if feature_image}}
 		<div class="post-cover cover">
@@ -75,12 +76,9 @@
                         <i class="fab fa-whatsapp-square"></i><span class="hidden">Whatsapp</span>
                     </a>
 
-
-
 					<a title="LinkedIn" class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{url absolute="true"}}/&amp;title={{title}}" onclick="window.open(this.href, 'linkedin-share', 'width=930,height=720');return false;">
 						<i class="fab fa-linkedin"></i><span class="hidden">LinkedIn</span>
 					</a>
-
 
 				</div>
 
