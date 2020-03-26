@@ -62,11 +62,11 @@ div.post-cover.cover > img {
 
 @media (max-width: 700px) {
     h1.blog-name {
-        font-size: 4.5em !important;
+        font-size: 4em !important;
     }
 
     .post-header .post-title {
-        font-size: 4.5em !important;
+        font-size: 4em !important;
     }
 
     h2.post-title {
