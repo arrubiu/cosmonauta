@@ -1,0 +1,15 @@
+.commento-option-upvote,
+.commento-option-downvote,
+.commento-option-collapse,
+.commento-score {
+    display: none !important;
+}
+
+.commento-option-reply,
+.commento-option-cancel {
+    right: 0 !important;
+}
+
+.commento-root .commento-card .commento-timeago::before {
+    content: '';
+}
